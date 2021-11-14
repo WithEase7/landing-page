@@ -1,32 +1,78 @@
 .parent {
-  background-color: black;
-  height: auto;
-  /* margin: 2rem; */
-  display: flex;
-  justify-content: space-between;
+    height: 89vh;
+    /* margin: 2rem; */
+    /* border:1px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left {
-  width: 50%;
-  border: 1px solid black;
-  display: flex;
-  height: 500px;
-  align-items: center;
-}
-
-.leftcontent{
-    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    /* padding-top: 5rem; */
 }
 
 .right {
-  width: 50%;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 5rem; */
+    align-items: center;
 }
 
-.right .image {
+.rightcontent{
+    /* padding: 100px 150px 100px 0; */
+  display: flex;
+  width: 70%;
+  /* height: 400px; */
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.left .image {
   width: 500px;
   height: 500px;
+}
+
+.title{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #01BF71;
+    margin-bottom: 1rem;
+    letter-spacing: 0.6px;
+    font-size: 1rem;
+}
+
+.heading{
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 1rem;
+    /* letter-spacing: 0.3px; */
+}
+
+.para{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  letter-spacing: 0.3px;
+  margin-bottom: 2.2rem;
+}
+
+.explore{
+    background-color: black;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
 }

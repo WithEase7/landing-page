@@ -1,0 +1,105 @@
+.parent{
+    height: 100vh;
+    background-color: black;
+    border-top: 3px solid grey;
+}
+
+.menu{
+    padding: 2rem 2rem 0 2rem;
+    border-bottom: 1px solid white;
+}
+          
+.navlinks{
+    list-style: none;
+}
+
+.link{
+    padding: .8rem 0;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(216, 214, 214);
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.link a:hover{
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+.heading{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    font-family: sans-serif;
+    padding: .8rem 0;
+}
+
+.firstdiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seconddiv{
+    display: flex;
+    padding: 2rem 3rem;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.para{
+    color: white;
+    width: 70%;
+    align-items: center;
+}
+
+.socialicons{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3rem;
+}
+
+.left{
+    color: white;
+    width: 70%;
+    padding-top: 2rem;
+    font-size: .8rem;
+}
+
+
+
+.right{
+    width: 30%;
+    padding-top: 2rem;
+}
+
+.copyrightlinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.clink a{
+    color: rgb(216, 214, 214);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.clink a:hover{
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+
+.para2 span{
+    color: rgb(216, 214, 214);
+    cursor: pointer;
+}
+
+.para2 span:hover{
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
