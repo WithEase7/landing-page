@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+
+.logo{
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 130px;
+}
+
+.image{
+    height: 70px;
+    width: 60px;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+    font-weight: 600;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+
+a:hover{
+    color: black;
+}
+
+.dashboard{
+    height: 30px;
+}
