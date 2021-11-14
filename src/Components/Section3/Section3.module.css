@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.parent{
+    background-color: black;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.heading{
+    padding-top: 8rem;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cardwrapper{
+    padding: 3rem 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    height: 85%;
+}
+
+.cardcontainer{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.cardcontent {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+.cardcontent h3{
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-self:center;
+}
+
+.cardcontent p{
+    padding-top: 1rem;
+    font-family: sans-serif;
+    align-self: center;
+    font-weight: 100;
+    color: rgb(109, 107, 107);
+    font-size: .9rem;
+}
+
+.cardcontent h4{
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+    color: #01BF71;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}

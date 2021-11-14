@@ -1,0 +1,77 @@
+.parent{
+    background-color: rgb(240, 246, 255);
+    height: 80vh;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+}
+
+.left .image{
+    width: 550px;
+    height: 550px;
+    padding-left: 3rem;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    /* height: 70%; */
+    width: 70%;
+}
+
+.container h1{
+    font-family: gd-sage,"Times","Times New Roman",serif;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.para1, .para2{
+    padding-top: 2rem;
+    font-family: sans-serif;
+}
+
+.inputdiv{
+    display: flex;
+    padding-top: 2rem;
+    height: 80px;
+}
+
+.inputdiv input{
+    width: 80%;
+    padding: 1rem;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid gray;
+
+}
+
+.search{
+    width: 20%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastdiv{
+    padding-top: 2rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading1, .heading2{
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
