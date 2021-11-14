@@ -1,3 +1,32 @@
-.parent{
-    background-color: black;
+.parent {
+  background-color: black;
+  height: auto;
+  /* margin: 2rem; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  height: 500px;
+  align-items: center;
+}
+
+.leftcontent{
+    
+}
+
+.right {
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .image {
+  width: 500px;
+  height: 500px;
 }
